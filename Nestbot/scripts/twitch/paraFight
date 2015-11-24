@@ -1,0 +1,135 @@
+ON *:TEXT:!kill*:%twitch.chan:{
+  addViewer $nick
+  if ($2 ison %twitch.chan) { addViewer $2 }
+  else { dire $chr(91) $+ $nick $+ $chr(93) cible introuvable | return false }
+
+  paraKill $nick $2
+}
+
+alias paraKill {
+  var %player = $1
+  var %target = $2
+
+  ; ATTAQUE SUR SOIS OU SUR JOUEUR AFK
+  if (%target == %player) { return false }
+  if (%target !ison %twitch.chan) { return false }
+
+  ; PAS DE POINT DACTION
+  if ($int(%profile.timer. [ $+ [ %player ] ]) < $int(%viewer.timer.cooldown)) {
+    var %waiting = $calc($int(%viewer.timer.cooldown) - $int(%profile.timer. [ $+ [ %player ] ]))
+    dire $chr(91) $+ %player $+ $chr(93) Attendez %waiting $+ min pour jouer.
+    return false
+  }
+
+  ; LEVEL INFERIEUR A 10
+  if (($int(%profile.para.level. [ $+ [ %player ] ]) < 10) && ($int(%profile.reborn. [ $+ [ %player ] ]) != 2)) {
+    dire $chr(91) $+ %player $+ $chr(93) Vous devez être level: 10
+    return false ;
+  }
+  ; CIBLE INFERIEUR A 10
+  if (($int(%profile.para.level. [ $+ [ %target ] ]) < 10) && ($int(%profile.reborn. [ $+ [ %target ] ]) != 2)) { 
+    dire $chr(91) $+ %player $+ $chr(93) Votre cible dois être level: 10
+    return false
+  }
+
+  ; PAS DEPEE
+  if (%profile.item.1. [ $+ [ %player ] ] == $null) {
+    dire $chr(91) $+ %player $+ $chr(93) Acheté d'abord l'épée $chr(91) $+ !buy 1 $+ $chr(93) et voici la liste des items: $chr(91) $+ !item $+ $chr(93)
+    return false
+  }
+
+  ; CIBLE DEJA MORT
+  if ($int(%profile.para.godmod. [ $+ [ %target ] ]) > 0) { 
+    dire $chr(91) $+ %player $+ $chr(93) Votre cible est au cimetière pendant %profile.para.godmod. [ $+ [ %target ] ] minutes.
+    return false
+  }
+
+  ; RESET LES POINTS DACTION
+  set %profile.timer. [ $+ [ %player ] ] -1
+  incViewerTimeR %player
+
+  ; CALCULE LE WINRATE ET LANCE LES DES
+  var %winrate = $calc($int(%para.winrate) + $int(%profile.para.puissance. [ $+ [ %player ] ]) - $int(%profile.para.defense. [ $+ [ %target ] ]))
+  var %random = $rand(1,100) 
+
+  ; PREPARE LE MESSAGE
+  var %msg = $chr(91) $+ %player $+ $chr(93) PVP $chr(91) $+ %target $+ $chr(93) %winrate $+ $chr(37)
+
+  ; VERIFIE QUI A GAGNER GRACE AU WINRATE ET LANCE DE DES
+  if ($int(%random) < $calc($int(%winrate)+1)) { 
+
+    ; VICTOIRE
+    ; ECRIS LE MESSAGE, SAUVEGARDE LE KILLSCORE ET MET LE GODMOD
+    paraKillScore %player %target
+
+    ; AJOUTE LES GAIN DXP
+    var %xp = $paraKillXp(%player,%target)
+
+    ; BONUS XP ANNEAU FOLLOW
+    if (%profile.item.8. [ $+ [ %player ] ] != $null) {
+      var %xp.bonus1 = $calc(($int(%xp)/100)*$int(%followring.xppercent))
+    }
+    else { var %xp.bonus1 = 0 }
+    ; BONUS XP ANNEAU RENAISSANCE
+    if (%profile.item.10. [ $+ [ %player ] ] != $null) {
+      var %xp.bonus2 = $calc(($int(%xp)/100)*$int(%rebornring.xppercent))
+    }
+    else { var %xp.bonus2 = 0 }
+    ; AJOUTE DES BONUS XP
+    var %xp.bonus = $calc($int(%xp.bonus1) + $int(%xp.bonus2))
+    if (%xp.bonus > 0) { var %xp2 = (+ $+ %xp.bonus $+ ) }
+    else { var %xp2 = (+0) }
+
+    ; ATTRIBUE LA PRIME ET LA RESET
+    var %prime = %profile.prime. [ $+ [ %target ] ]
+    set %profile.prime. [ $+ [ %target ] ] 0
+    set %profile.gils. [ $+ [ %player ] ] $calc($int(%profile.gils. [ $+ [ %player ] ]) + $int(%prime))
+
+    var %msg = %msg $chr(91) $+ VICTOIRE $+ $chr(93) Killscore: %profile.para.killscore. [ $+ [ %player ] ] $+ , XP: %xp %xp2 $+ , PRIME: %prime $+ G
+    paraStartGodMod %target
+
+    ; AJOUTE LXP ET RECALCULE LE LEVEL
+    paraAddXp %player %xp
+    paraSetLevel %player
+
+  }
+  else { 
+    ; DEFAITE
+    ; ENVOIE LE MESSAGE ET SAVE LE KILLSCORE
+    paraKillScore %target %player
+    var %msg = %msg $chr(91) $+ DEFAITE $+ $chr(93) Killscore: %profile.para.killscore. [ $+ [ %player ] ]
+  }
+
+  dire %msg
+  saveini
+
+  ; dire [PVP-Debug] %player puissance: %profile.para.puissance. [ $+ [ %player ] ] --- %target defense: %profile.para.defense. [ $+ [ %target ] ] --- winrate = 60 + attaquant.puissance - defenseur.defense = %winrate --- Jet de dé: %random
+}
+
+alias paraKillScore {
+  var %killer = $1
+  var %death = $2
+
+  ; RETIRE 1 POINT AU PERDANT SI SCORE > 0
+  if ($int(%profile.para.killscore. [ $+ [ %death ] ]) > 0) { set %profile.para.killscore. [ $+ [ %death ] ] $calc($int(%profile.para.killscore. [ $+ [ %death ] ])-1) }
+
+  ; AJOUTE 2 ou 3 POINTS EN FONCTION DE LA DIFF DE LEVEL
+  var %killscore = 2
+  if ($int(%profile.para.level. [ $+ [ %death ] ]) > $int(%profile.para.level. [ $+ [ %killer ] ])) { var %killscore = $calc($int(%killscore)+1) }
+  set %profile.para.killscore. [ $+ [ %killer ] ] $calc($int(%profile.para.killscore. [ $+ [ %killer ] ])+$int(%killscore))
+}
+
+alias paraKillXp {
+  ; CALCULE LE GAIN DXP SANS LAJOUTER
+  var %killer = $1
+  var %death = $2
+  var %xp = 0
+
+  var %current.level = $int(%profile.para.level. [ $+ [ $2 ] ])
+  var %xplevel = %para.xp. [ $+ [ %current.level ] ]
+  var %xpgain = $calc(($int(%xplevel)/100)*$int(%para.xpkill))
+
+  debug-pvp /paraKillXp current.level: %current.level ;; xplevel: %xplevel ;; xpgain = $calc(($int(%xplevel)/100)*$int(%para.xpkill)) = %xplevel divisé par 100 fois %para.xpkill
+
+  return %xpgain
+}

@@ -1,0 +1,3 @@
+set %quizz.r 4 | set %quizz.q <D3 ITEM> Combien de pièces compte le set: L'autorité d'Auguild ? | set %quizz.author Nestbot
+set %quizz.r Anneau de grandeur royale | set %quizz.q <D3 ITEM> Quel anneau légendaire réduit de 1 le nombre de pièces requis pour obtenir un bonus de set ? | set %quizz.author Nestbot
+set %quizz.r Kadala | set %quizz.q <D3 GENERAL> Quel PNJ vous permet d'acheter des item contre des cristaux de sang ? | set %quizz.author Nestbot

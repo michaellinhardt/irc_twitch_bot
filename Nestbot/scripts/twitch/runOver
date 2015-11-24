@@ -1,0 +1,44 @@
+alias runOver {
+  var %time = $1
+  var %xp = $int($2)
+  var %xph = $int($3)
+
+  ; VERIFIE SI UN AJOUT EST DEJA EN COURS, DANS CE CAS ON ATTENDS
+  if (%addRun.all == $null) { set %addRun.all $int(0) | debug [RUN] Validage d'un run }
+  else { 
+    debug [RUN] Report d'un run /runOver $1-
+    timer 1 10 runOver $1-
+    return false
+  }
+
+  ; AJOUTE L'XP
+  set %addRun.all $calc( $calc( $int(%addRun.all) + $calc( $int(%xp) * 1000000 ) ) / 2 )
+  debug /runOver addRun.all = %addRun.all
+
+  dire [RUN] Terminé en $chr(91) $+ %time $+ $chr(93) avec %xp $+ Mxp soit %xph $+ M/heure. La moitié de cette expérience est ajouté au viewers présent $chr(40) $+ %addRun.all $+ $chr(41).
+}
+
+alias verifRun {
+  if (!$isfile(C:\Nestbot\scripts\output\xprun.txt)) { debug /verifRun NO FILE | return false }
+  else { 
+    debug /verifRun read file and delete
+    play -c %twitch.chan C:\Nestbot\scripts\output\xprun.txt 1
+    timer 1 2 remove C:\Nestbot\scripts\output\xprun.txt
+  }
+}
+
+alias resetRun { sockopen resetRun localhost 80 }
+on *:sockopen:resetRun:{
+  var %ver1 var=lol
+  sockwrite -n $sockname POST /stream/resetrun.php HTTP/1.1
+  sockwrite -n $sockname Content-Type: application/x-www-form-urlencoded
+  sockwrite -n $sockname Content-Length: $calc($len(%ver1) +1)
+  sockwrite -n $sockname host: localhost
+  sockwrite -n $sockname
+  sockwrite -n $sockname %ver1
+}
+on *:sockread:resetRun:{
+  ; FERME LA CONNEXION
+  sockclose resetRun
+  saveini
+}

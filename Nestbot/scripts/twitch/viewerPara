@@ -1,0 +1,206 @@
+alias paraSetPermin {
+  if ($1 == $null) { return false }
+  var %xp = $int($1)
+  set %para.xpperviewer %xp
+  dire [XP] Par minutes et par viewer: %para.xpperviewer
+}
+
+alias paraSetTimer {
+  if ($1 == $null) { return false }
+  set %viewer.timer.cooldown $int($1)
+  unset %profile.timer.*
+  unset %profile.timerpercent.*
+  dire [PVP] Temps entre 2 actions: %viewer.timer.cooldown minutes
+}
+
+alias paraForcelevel {
+  ; VERIFIE QUE LE LEVEL DEMANDER EST ENTRE 0 et 100
+  if (($2 > 100) || ($2 < 0)) { return false }
+
+  ; DEMARRE LA BOUCLE POUR CALCULER L'XP TOTAL
+  var %level = 0
+  var %xp = 0
+  while ($true) {
+    ; DEFINIE LE LEVEL ACTUELLEMENT PARCOURU ET STOP SI NECESAIRE
+    var %level = $calc($int(%level) + $int(1))
+    if (%level > $2) { break }
+
+    ; RECUPERE L'XP NECESSAIRE POUR CE LEVEL ET LA JOUTE
+    var %xp = $calc($int(%para.xp. [ $+ [ %level ] ]) + $int(%xp))
+  }
+
+  set %profile.para.xptotal. [ $+ [ $1 ] ] %xp
+  set %profile.para.xpcurrent. [ $+ [ $1 ] ] %xp
+  set %profile.para.level. [ $+ [ $1 ] ] 0
+  paraSetLevel $1
+}
+
+alias paraAddXp {
+  var %xp = $int($2)
+
+  ; BONUS XP ANNEAU FOLLOW
+  if (%profile.item.8. [ $+ [ $1 ] ] != $null) {
+    var %xp.bonus1 = $calc(($int(%xp)/100)*$int(%followring.xppercent))
+  }
+  else { var %xp.bonus1 = 0 }
+
+  ; BONUS XP ANNEAU RENAISSANCE
+  if (%profile.item.10. [ $+ [ $1 ] ] != $null) {
+    var %xp.bonus2 = $calc(($int(%xp)/100)*$int(%rebornring.xppercent))
+  }
+  else { var %xp.bonus2 = 0 }
+
+  ; AJOUTE DES BONUS XP
+  var %xp = $calc($int(%xp)+$int(%xp.bonus1)+$int(%xp.bonus2))
+
+  set %profile.para.xptotal. [ $+ [ $1 ] ] $calc($int(%profile.para.xptotal. [ $+ [ $1 ] ]) + $int(%xp))
+  set %profile.para.xpcurrent. [ $+ [ $1 ] ] $calc($int(%profile.para.xpcurrent. [ $+ [ $1 ] ]) + $int(%xp))
+
+  debug-permin [ADD-XP] $1 - $int(%xp) XP
+}
+
+alias paraSetLevel {
+  var %target = $1
+  ; STOP EN CAS DE LEVEL 100
+  if (%profile.para.level. [ $+ [ %target ] ] == 100) { return false }
+
+  ; CALCULE LES LEVEL UP NECESSAIRE EN RAPPORT AVEC LE CURRENT XP
+  paraVerifCurrentXp %target
+
+  ; EMPECHE LE DEPACEMENT DE LEVEL 100
+  if (%profile.para.level. [ $+ [ %target ] ] > 100) { set %profile.para.level. [ $+ [ %target ] ] 100 }
+}
+
+alias paraBuild { remove C:\Nestbot\scripts\php\buildPara.txt | sockopen paraBuild localhost 80 }
+on *:sockopen:paraBuild:{
+  var %ver1 var=lol
+  sockwrite -n $sockname POST /stream/paraBuilder.php HTTP/1.1
+  sockwrite -n $sockname Content-Type: application/x-www-form-urlencoded
+  sockwrite -n $sockname Content-Length: $calc($len(%ver1) +1)
+  sockwrite -n $sockname host: localhost
+  sockwrite -n $sockname
+  sockwrite -n $sockname %ver1
+}
+on *:sockread:paraBuild:{
+  ; FERME LA CONNEXION
+  sockclose paraBuild
+  timer 1 1 play -c %twitch.chan C:\Nestbot\scripts\php\buildPara.txt 1
+}
+
+
+alias paraResetAll {
+  ; RESET TOUT LES LEVEL (ILS SERONT TOUS REBUILD)
+  unset %profile.para.*
+  debug-viewer /paraResetAll
+  dire Para-system: Tous les levels sont reset.
+  paraBuild
+}
+
+alias paraVerifCurrentXp {
+  var %target = $1
+  ; CALCULE LES LEVEL UP NECESSAIRE EN RAPPORT AVEC LE CURRENT XP
+
+  ; SAUVEGARDE LE LEVEL AVANT EXECUTION POUR LE CALCUL DES LEVEL GAGNE
+  var %level.before = $int(%profile.para.level. [ $+ [ %target ] ])
+
+  ; LA BOUCLE QUI INCREMENT LE LEVEL SUR LE CURRENT XP
+  while ($true) {
+    ; ENREGISTRE LE LEVEL, LEVEL SUIVANT ET XP NECESSAIRE POUR L'ATTENDRE ET XP ACTUEL
+    var %level.current = $int(%profile.para.level. [ $+ [ %target ] ])
+    var %level.next = %level.current + 1
+    var %xp.needed = $int(%para.xp. [ $+ [ %level.next ] ])
+    var %xp.current = $int(%profile.para.xpcurrent. [ $+ [ %target ] ])
+
+    ; SI XP CURRENT < XP NEEDED = PAS DE LEVEL UP, ON BREAK
+    if ($int(%xp.current) < $int(%xp.needed)) { break }
+
+    set %profile.para.level. [ $+ [ %target ] ] $int(%profile.para.level. [ $+ [ %target ] ]) + 1
+    set %profile.para.xpcurrent. [ $+ [ %target ] ] $int(%profile.para.xpcurrent. [ $+ [ %target ] ]) - $int(%xp.needed)
+  }
+
+  ; SAUVEGARDE LE LEVEL APRES EXECUTION POUR LE CALCUL DES LEVEL GAGNE
+  var %level.after = $int(%profile.para.level. [ $+ [ %target ] ])
+
+  ; REGLE LE % DXP PARCOURU PAR LE VIEWER
+  paraSetPercent %target
+
+  ; REGLE L'ATTAQUE ET LA DEFENSE
+  paraSetATKDEF %target
+
+  ; VERIFIE SI IL Y A EU DES LEVEL UP POUR LE DIRE
+  var %level.gain = %level.after - %level.before
+  if (%level.gain != 0) { direLvlUp %target %level.gain }
+}
+
+alias paraSetPercent {
+  var %target = $1
+  var %level.current = $int(%profile.para.level. [ $+ [ %target ] ])
+  var %level.next = %level.current + 1
+  var %xp.needed = $int(%para.xp. [ $+ [ %level.next ] ])
+  var %xp.current = $int(%profile.para.xpcurrent. [ $+ [ %target ] ])
+
+  set %profile.para.percent. [ $+ [ %target ] ] $int($calc($int(%xp.current) / $int(%xp.needed) * 100))
+}
+
+alias paraSetATKDEF {
+  ; DETERMINE LA PUISSANCE ET DEFENSE DU JOUEUR
+
+  ; DETERMINE LA PUISS/DEF PAR RAPPORT AU LEVEL
+  var %puissance = %profile.para.level. [ $+ [ $1 ] ]
+  var %defense = %profile.para.level. [ $+ [ $1 ] ]
+
+  ; ADDITION LES APPORT DES ITEM
+  var %i = 0
+  while (true) {
+    %i = $calc($int(%i) + 1)
+    var %iName = %i $+ .name
+    var %iPuissance = %i $+ .puissance
+    var %iDefense = %i $+ .defense
+    var %iGils = %i $+ .gils
+    if (%item. [ $+ [ %iName ] ] != $null) {
+      ; LITEM EXISTE ON REGARDE SI LE VIEWER LE POSSEDE
+      var %iViewer = %i $+ . $+ $1
+      if (%profile.item. [ $+ [ %iViewer ] ] != $null) {
+        %puissance = $calc($int(%puissance) + $int(%item. [ $+ [ %iPuissance ] ]))
+        %defense = $calc($int(%defense) + $int(%item. [ $+ [ %iDefense ] ]))
+      }
+    }
+    else { break }
+  }
+
+  ; ENREGISTRE LE RESULTAT
+  set %profile.para.puissance. [ $+ [ $1 ] ] %puissance
+  set %profile.para.defense. [ $+ [ $1 ] ] %defense
+}
+
+alias paraDecGodMod {
+  ; DECREMENTE DE 1 MIN LE GOD MOD
+  if ($int(%profile.para.godmod. [ $+ [ $1 ] ]) > %para.godmod.cooldown) { set %profile.para.godmod. [ $+ [ $1 ] ] $int(%para.godmod.cooldown) }
+  if ($int(%profile.para.godmod. [ $+ [ $1 ] ]) > 0) set %profile.para.godmod. [ $+ [ $1 ] ] $calc( $int(%profile.para.godmod. [ $+ [ $1 ] ]) - 1 )
+}
+
+alias paraSetGodModCD {
+  ; REGLE LE COOLDOWN ENTRE DEUX COMBAT
+  unset %profile.para.godmod.*
+  set %para.godmod.cooldown $1
+  dire [PVP] Temps au cimetière: $1 minutes
+  debug-pvp [PVP] Temps au cimetière: $1 minutes
+}
+
+alias paraStartGodMod {
+  ; DEBUTE LE GOD MODE POUR QueLQUUN QUI EST MORT
+  set %profile.para.godmod. [ $+ [ $1 ] ] %para.godmod.cooldown
+}
+
+alias paraSetChanceRate {
+  ; CHANCE DE GAGNER DE BASE POUR LATTAQUANT
+  set %para.winrate $1
+  dire [PVP] Winrate à level égale: $1 $+ $chr(37)
+  debug-pvp [PVP] Winrate à level égale: $1 $+ $chr(37)
+}
+
+alias paraSetXpKill {
+  ; REGLES LE POUCENT DXP GAGNé SUR UN KILL
+  set %para.xpkill $1
+  dire [PVP] Pourcentage d'xp par kill: $1
+}

@@ -1,0 +1,3 @@
+ON *:TEXT:*:%twitch.chan:{
+  ; write C:\Nestbot\scripts\output\ingameChat.txt $nick $+ : $1-
+}

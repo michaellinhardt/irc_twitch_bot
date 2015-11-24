@@ -1,0 +1,8 @@
+unset %raffle.winner.*
+set %raffle.winner.1 Nestoyeur
+set %raffle.winner.2 Chaoshark
+set %raffle.winner.3 Madge15140
+set %raffle.winner.4 Baboulinett
+set %raffle.winner.5 Romphi14
+set %raffle.construct 1
+debug raffle.txt end of play

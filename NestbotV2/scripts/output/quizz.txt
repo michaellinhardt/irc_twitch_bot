@@ -1,0 +1,3 @@
+set %quizz.r 15 | set %quizz.q <D3 GENERAL> Combien de cristaux de sang coute une arme à une main chez Kadala ? | set %quizz.author Nestbot
+set %quizz.r Espauliers de Zakara | set %quizz.q <D3 ITEM> Quel objet légendaire rends votre équipement indestructible ? | set %quizz.author Nestbot
+set %quizz.r Sangle de Harrington | set %quizz.q <D3 ITEM> Quel ceinture légendaire augmente vos dégat de 100 à 130% pendant 10sc à l'ouverture d'un coffre ? | set %quizz.author Nestbot

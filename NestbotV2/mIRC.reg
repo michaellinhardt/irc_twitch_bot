@@ -1,0 +1,13 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\mIRC]
+
+[HKEY_CURRENT_USER\Software\mIRC\License]
+@="2012-347150"
+
+[HKEY_CURRENT_USER\Software\mIRC\UserName]
+@="Team EAT"
+
+[HKEY_CURRENT_USER\Software\mIRC\Validated]
+@="1337-347150-2012"
+
