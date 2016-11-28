@@ -1,0 +1,29 @@
+,[2.0.5] Quel set peut-on craft avec une Peau de démon ?,Le Cuir ..,Le Cuir du démon,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+,[2.0.5] Quel set peut-on craft avec un Éclat Angélique ?,Le Blindage ..,Le Blindage Sanctifié,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+,[2.0.5] Quel set peut-on craft avec la Clef de Born ?,Le commandement ..,Le Commandement de Born,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+,[2.0.5] Quel set peut-on craft avec une Essence des Mers Jumelles ?,La Parure du ..,La Parure du Capitaine LeRouge,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+,[2.0.5] Quel set peut-on craft avec la Doctrine des Loups de Fer ?,Les Habits ..,Les Habits d'Asheara,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+,[2.0.5] Quel set peut-on craft avec l'Âme Tourmentée de Maghda ?,Destin de ..,Destin de Cain,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+,[2.0.5] Quel set peut-on craft avec une Source Mystique ?,Le Périple ..,Le Périple du Sage,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+,[2.0.5] Quel set peut-on craft avec Morceau de Plaque d'Entsteig ?,L'Autorité d'A..,L'Autorité d'Aughuild,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+,[2.0.5] Quel set peut-on craft avec un Symbole de la Confrérie des Gardiens ?,Le Péril ..,Le Péril du Gardien,! Liste des matériaux sur le site des Millenium: http://tinyurl.com/npcurep,Nestoyeur
+
+,Quel matériel brut rare peut-on trouver sur les élites 70+ ?,Souffle ..,Souffle de la mort,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,Quel matériel brut rare peut-on obtenir en recyclant un objet rare 70+ ?,Cristal ..,Cristal voilé,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,Quel matériel brut rare peut-on obtenir en recyclant un objet magique 70+ ?,Poussière ..,Poussière arcanique,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+
+,Les souffles de la mort se trouve sur les élites 70+ ?,Vrai ou Faux ?,Vrai,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,Les cristaux voilé s'obtiennent en recyclant des objets rare 70+ ?,Vrai ou Faux ?,Vrai,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,Les poussière arcanique s'obtiennent en recylant des objets magique 70+ ?,Vrai ou Faux ?,Vrai,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+
+,Les souffles de la mort se trouve sur les monstres normaux ?,Vrai ou Faux ?,Faux,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,Les cristaux voilé s'obtiennent en recyclant des objets communs 70+ ?,Vrai ou Faux ?,Faux,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,Les poussière arcanique s'obtiennent en recylant des objets légendaire 70+,Vrai ou Faux ?,Faux,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+
+,Quel os de Léoric permet de fabriquer un bâton de bouclier ?,T.. de Léoric,Tibia de Léoric,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,,..,,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,,..,,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,,..,,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,,..,,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+,,..,,! Liste des matériaux sur le site de Blizzard: http://tinyurl.com/ob5k8we,Nestoyeur
+

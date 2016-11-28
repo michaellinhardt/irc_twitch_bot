@@ -1,0 +1,30 @@
+
+,Affixe: Ces monstres ont beaucoup plus de vie que la normale.,Bonus ..,Bonus de vie, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Lorsqu’ils vous touchent ces monstres peuvent vous faire perdre le contrôle de votre personnage.,Cau..,Cauchemar, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres sont liés entre eux par des chaînes de feu qui brûlent tout ce qui entre en contact avec elles.,Chaînes ..,Chaînes de feu, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres érigent des murs qui peuvent vous emprisonner ou bloquer le chemin.,Dresseur..,Dresseur de murs, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Lorsqu’on les touche ces monstres libèrent des éclairs électriques.,Ele..,Electricité, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Créent des globules toxiques qui se propagent en croix et répandent des flaques.,Enchantement ..,Enchantement empoisonné, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Créent des rayons d’énergie arcanique tournoyants qui infligent d’importants dégâts.,Enchanté par ..,Enchanté par les arcanes, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres emplissent l’air de cristaux de glace explosifs ralentissent et peuvent geler les personnages pris dedans.,G..,Gel, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres peuvent vous immobiliser temporairement.,Ge..,Geôlier, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres peuvent créer des doubles d’eux-mêmes.,Ill..,Illusion, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres laissent une trainée de lave sur leur passage.,La..,Lave, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres envoient des boules de feu explosives qui infligent d’énormes dégâts à distance.,Mo..,Mortier, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres font apparaître une sphère de glace qui inflige des dégâts importants sur la durée en se déplaçant sur le champ de bataille.,Onde ..,Onde gelée, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres foudroient leurs ennemis à distance grâce à leurs puissants éclairs.,Or..,Orage, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres recouvrent des zones entières de sphères d’énergie qui électrocutent tout ce qu’elles touchent.,Or..,Orbital, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres créent des flaques toxiques sur leur passage.,Pe..,Peste, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres créent des flaques de flammes sous vos pieds.,Pro..,Profanateur, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres peuvent faire apparaître un bouclier qui les rend insensibles aux dégâts.,Pro..,Protection, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres se déplacent et attaquent bien plus vite que les autres.,Ra..,Rapidité, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres vous envoient à distance ce qui interrompt votre attaque et vous ralentit.,Ren..,Renversement, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres renvoient une partie des dégâts de mêlée qu’ils subissent à leurs attaquants.,Renvoi ..,Renvoi des dégâts, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres peuvent disparaître pour réapparaître à un autre endroit de l’écran.,Tél..,Téléporteur, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres ouvrent une faille magique sur le champ de bataille.,Trou..,Trou de ver, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres se nourrissent de vos blessures.,Vam..,Vampire, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres gagnent en puissance lorsque d’autres monstres de leur groupe sont tués.,Ven..,Vengeur, http://tinyurl.com/pw77gxr,Nestoyeur
+,Affixe: Ces monstres peuvent vous attirer vers eux.,Vor..,Vortex, http://tinyurl.com/pw77gxr,Nestoyeur
+
+
+,,..,, http://tinyurl.com/pw77gxr,Nestoyeur

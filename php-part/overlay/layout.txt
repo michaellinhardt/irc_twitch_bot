@@ -1,0 +1,1 @@
+<p id="nicklistTitre">ONLINE</p><ul id="laliste"><li><nobr><span class="follower"></span><span class="online"><strong>Nestbot</strong></span><span class="level">1</span></nobr></li><li><nobr><span class="online">Nestoyeur</span><span class="level">19</span></nobr></li><li><nobr><span class="online">Nightbot</span><span class="level">1</span></nobr></li></ul>

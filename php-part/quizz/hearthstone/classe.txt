@@ -1,0 +1,58 @@
+﻿,Quel est le pouvoir héroïque du Chaman ?,Appel t..,Appel totémique,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Combien de totem différents posséde le Chaman ?,Tapez !quizz <le nombre>,4,! Le chaman: http://tinyurl.com/l3ly2nb,Nestoyeur
+,Au level 15 le Prêtre reçoit la carte Guérison astral.,Vrai ou Faux ?,Faux,! La carte Guérison ancéstrale: http://tinyurl.com/qzzbgur,Nestoyeur
+,Le Chaman est le seul à posséder un serviteur avec 4 capacités.,Vrai ou Faux ?,Vrai,! La carte Al'Akir seigneur des Vents: http://tinyurl.com/qjt3rfr,Nestoyeur
+,Quel est le nom complet du Chaman ?,Th..,Thrall,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,Quel est le pouvoir héroïque du Chasseur ?,..uré,Tir assuré,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Combien de points de dégâts inflige le pouvoir du Chasseur ?,Tapez !quizz <le nombre>,2,! Le Chasseur: http://tinyurl.com/jvtsubu,Nestoyeur
+,Au level 15 le Chasseur reçoit la carte Pistage.,Vrai ou Faux ?,Vrai,! La carte Pistage: http://tinyurl.com/omks6fv,Nestoyeur
+,L'arme du Chasseur est une arbaléte.,Faux ou Faux ?,Faux,! Le Chasseur: http://tinyurl.com/jvtsubu,Nestoyeur
+,Quel est le nom complet du Chasseur ?,Rex..,Rexxar,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,Quel est le pouvoir héroïque du Démoniste ?,..ion,Connexion,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Combien de points de dégâts subit le Démoniste avec son pouvoir ?,Tapez !quizz <le nombre>,2,! Le Démoniste: http://tinyurl.com/q9eqm3e,Nestoyeur
+,Au level 15 le Chasseur reçoit la carte Pacte officiel.,Vrai ou Faux ?,Faux,! La carte Pacte sacrificiel: http://tinyurl.com/ox6zper,Nestoyeur
+,Le seigneur Jaraxxus détruit votre propre héro.,Faux ou Faux ?,Vrai,! La carte Seigneur Jaraxxus: http://tinyurl.com/pph7smg,Nestoyeur
+,Quel est le nom complet du Démoniste ?,Gul'..,Gul'dan,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,Quel est le pouvoir héroïque du Druide ?,Chang..,Changeforme,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Combien d'attaque gagne le druide avec son pouvoir ?,Tapez !quizz <le nombre>,1,! Le Druide: http://tinyurl.com/njru393,Nestoyeur
+,Au level 15 le Druide reçoit la carte Toucher guérisseur.,Vrai ou Faux ?,Vrai,! La carte Toucher guérisseur: http://tinyurl.com/k53houf,Nestoyeur
+,Le Druide accumule 1 ATK et 1 armure à chaque tour.,Faux ou Faux ?,Faux,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Quel est le nom complet du Druide ?,Malfurion ..,Malfurion Hurlorage,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,Quel est le pouvoir héroïque du Guerrier ?,Gain ..,Gain d'armure !, - Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Combien d'armure donne le pouvoir du Guerrier ?,Tapez !quizz <le nombre>,2,! Le Guerrier: http://tinyurl.com/m4k38ts,Nestoyeur
+,Au level 15 le Guerrier reçoit la carte Frappe salvatrice.,Vrai ou Faux ?,Faux,! La carte Frappe héroïque: http://tinyurl.com/kwccxzk,Nestoyeur
+,Le Guerrier posséde plus d'arme que les autres classes.,Faux ou Faux ?,Vrai,! Le Guerrier: http://tinyurl.com/m4k38ts,Nestoyeur
+,Quel est le nom complet du Guerrier ?,Garrosh ..,Garrosh Hurlenfer,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,Quel est le pouvoir héroïque du Mage ?,Explosion ..,Explosion de feu,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Combien de dégâts inflige le pouvoir du Mage ?,Tapez !quizz <le nombre>,1,! Le Mage: http://tinyurl.com/kdlhpc6,Nestoyeur
+,Au level 15 le Mage reçoit la carte Intelligence des Arcanes.,Vrai ou Faux ?,Vrai,! La carte Intelligence des Arcanes: http://tinyurl.com/mfo8gn6,Nestoyeur
+,Le Mage peux transformer les ennemis en cochon.,Faux ou Faux ?,Faux,! La carte Métamorphose: http://tinyurl.com/lj7aona,Nestoyeur
+,Quel est le nom complet du Mage ?,.. Portvaillant,Jaina Portvaillant,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,Quel est le pouvoir héroïque du Paladin ?,Ren..,Renforcer,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Quel est la somme des points de vie et d'attaque des serviteur invoqué par le pouvoir du Paladin ?,Tapez !quizz <le nombre>,2,! Le Paladin: http://tinyurl.com/k3hh8hx,Nestoyeur
+,Au level 15 le Paladin reçoit la carte Lumiere divine.,Vrai ou Faux ?,Faux,! La carte Lumiere sacrée: http://tinyurl.com/kxerpbh,Nestoyeur
+,Le pouvoir du Paladin lui permet d'invoquer un serviteur 1/1,Faux ou Faux ?,Vrai,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Quel est le nom complet du Paladin ?,Uther le ..,Uther le Porteur de Lumière,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,Quel est le pouvoir héroïque du Prêtre ?,Soins in..,Soins inférieurs,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Combien de points de vie rends le pouvoir du Prêtre ?,Tapez !quizz <le nombre>,2,! Le Prêtre: http://tinyurl.com/ohkavcw,Nestoyeur
+,Au level 15 le Prêtre reçoit la carte Attaque mentale.,Vrai ou Faux ?,Vrai,! La carte Attaque mentale: http://tinyurl.com/qyxpgzs,Nestoyeur
+,Le pouvoir du prêtre ne s'applique pas sur les serviteurs.,Faux ou Faux ?,Faux,! Le Prêtre: http://tinyurl.com/ohkavcw,Nestoyeur
+,Quel est le nom complet du Prêtre ?,Anduin ..,Anduin Wrynn,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,Quel est le pouvoir héroïque du Voleur ?,.. des dagues,Maîtrise des dagues,! Les pouvoir héroïques: http://tinyurl.com/pxttr6u,Nestoyeur
+,Quel est la somme d'attaque et d'armure de l'arme invoqué par le pouvoir du Voleur ?,Tapez !quizz <le nombre>,3,! Le Voleur: http://tinyurl.com/mvgubem,Nestoyeur
+,Au level 15 le Voleur reçoit la carte Attaque sournoise.,Vrai ou Faux ?,Faux,! La carte Attaque pernicieuse: http://tinyurl.com/lqv9z36,Nestoyeur
+,La capacité Combo est exclusive aux Voleur.,Faux ou Faux ?,Vrai,! Le Voleur: http://tinyurl.com/mvgubem,Nestoyeur
+,Quel est le nom complet du Voleur ?,.. Sanguinar,Valeera Sanguinar,! Les héros: http://tinyurl.com/k2jeuaj,Nestoyeur
+
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur

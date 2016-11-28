@@ -1,0 +1,14 @@
+﻿,Combien rapporte en poussière le désenchantement d'une carte légendaire ?,..,400,!,Jailescroccs
+,Combien gagne en attaque un poulet furieux après avoir subit des dégats ?,..,5,!,Jailescroccs
+,Comment s’appelle le dos de carte rouge ?,Pa..,Pandarie,!,Jailescroccs
+,Combien de dégâts inflige le sort le plus puissant de hearthstone ?,..,10,!,Jailescroccs
+,Quel est le nom de l'arme qui inflige le plus de dégâts dans Hearthstone ?,Hur..,Hurlesang,!,Jailescroccs
+,Quelle est l'AOE la plus puissante du jeu ?,Choc ..,Réveil d'Ysera,!,Jailescroccs
+,Quel est le sort qui fait le plus piocher ?,Sp..,Sprint,!,Jailescroccs
+,Combien de dégâts inflige le sort éclair ?,..,3,!,Jailescroccs
+,Trois créatures sont en jeu: Combien de chances à Ragnaros de toucher le héro adverse ?,Juste le nombre sans symbole,25,!,Jailescroccs
+,Combien de vie perdez vous en jouant seigneur des abîmes et drain de vie ?,..,3,!,Jailescroccs
+,Quel est le score maximal possible en arène ?,..,12,!,Jailescroccs
+,Quel est le ratio dommage-coût en mana de la boule de feu ?,Utilisez un point et pas une virgule,1.5,!,Jailescroccs
+,,..,,!,Jailescroccs
+,,..,,!,Jailescroccs

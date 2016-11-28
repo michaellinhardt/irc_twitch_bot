@@ -1,0 +1,69 @@
+﻿,Avec combien de cartes commence le premier joueur ?,Tapez !quizz <le nombre>,3, Guide du jeu: http://tinyurl.com/lfkhvgq,Nestoyeur
+,Combien de carte de son propre deck le deuxième joueur posséde au débart ?,Tapez !quizz <le nombre>,4, Guide du jeu: http://tinyurl.com/lfkhvgq,Nestoyeur
+,Comment s'appelle la carte donné au premier tour du deuxième joueur ?,La p..,La pièce, Guide du jeu: http://tinyurl.com/lfkhvgq,Nestoyeur
+,Quel est le métier de l'adversaire en mode entrainement ?,Au..,Aubergiste, Guide du jeu: http://tinyurl.com/lfkhvgq,Nestoyeur
+,Au tirage de votre main vous pouvez remplacer 2 cartes.,Vrai ou Faux ?,Faux,! Vous pouvez toute les remplacer: http://tinyurl.com/lfkhvgq,Nestoyeur
+,Combien de mana coute La pièce ?,Tapez !quizz <le nombre>,0, Détail de la carte: http://tinyurl.com/oybzksc,Nestoyeur
+,Combien de classe compte le jeu à sa sortis ?,Tapez !quizz <le nombre>,9,! Régle du jeu: http://tinyurl.com/mxj6t33,Nestoyeur
+,Combien de carte comporte un deck complet ?,Tapez !quizz <le nombre>,30,! Régle du jeu: http://tinyurl.com/mxj6t33,Nestoyeur
+,Quel est le maximum de cristal de mana par défaut ?,Tapez !quizz <le nombre>,10,! Régle du jeu: http://tinyurl.com/mxj6t33,Nestoyeur
+,Comment s'appel la carte qui apparait si vous n'en avez plus dans votre Deck ?,Fa..,Fatigue,! La carte Fatigue: http://tinyurl.com/qeqwn5k,Nestoyeur
+
+,Situé au milieu de la carte: combien de gemme différente y à t-il ?,Taper !quizz <le nombre>,4,! Les type de cartes: http://tinyurl.com/pjk5czf,Nestoyeur
+,Quel est la couleur de la gemme indiquant une carte commune ?,..nche,Blanche,! Les type de cartes: http://tinyurl.com/pjk5czf,Nestoyeur
+,Quel est la couleur de la gemme indiquant une carte rare ?,..ue,Bleue,! Les type de cartes: http://tinyurl.com/pjk5czf,Nestoyeur
+,Quel est la couleur de la gemme indiquant une carte épique ?,..te,Violette,! Les type de cartes: http://tinyurl.com/pjk5czf,Nestoyeur
+,Quel est la couleur de la gemme indiquant une carte légendaire ?,..ge,Orange,! Les type de cartes: http://tinyurl.com/pjk5czf,Nestoyeur
+
+
+,Quelle capacité dis: Lorsque ce serviteur arrive en jeu l'effet décrit dans l'encadré est produit,Cri de ..,Cri de guerre,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Ce serviteur peut attaquer dès le tour où il arrive en jeu,..rge,Charge,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Permet de choisir entre deux effets celui que vous souhaitez,Choix ..,Choix des armes,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Si vous avez joué une carte avant celle-ci pendant ce tour l'effet se produit,Com..,Combo,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Lorsque ce serviteur meurt l'effet décrit dans l'encadré se produit,Râle ..,Râle d'agonie,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Protège ce serviteur des dégâts qu'il devrait subir. Disparaît une fois utilisé,.. divin,Bouclier divin,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Si ce serviteur subit des dégâts son attaque est augmentée de X,Accès ..,Accès de rage,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Les personnages gelés ne peuvent plus attaquer au prochain tour,Gè..,Gèle,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Confère au Héros ou au serviteur ciblé l'immunité,..sible,Insensible,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Réduira le nombre de vos cristaux de mana au début de votre prochain tour,Sur..,Surcharge,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Tous sort infligeant des dégâts ou rendant des points de vie est augmentée de X,.. sorts,Dégâts des sorts,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Annule toutes les compétences spéciales de la cible tant que celle-ci est en jeu,Si..,Silence,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Ne peut être la cible de sorts et ne peut pas être attaqué,..lage,Camouflage,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: L'adversaire doit impérativement détruire ce serviteur avant d'attaquer une autre cible,Prov..,Provocation,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Transforme un serviteur en une autre créature de façon irréversible,..tion,Transformation,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+,Quelle capacité dis: Ce serviteur peut attaquer 2 fois par tour,Furie ..,Furie des vents,! Les capacités: http://tinyurl.com/n7vcbr3,Nestoyeur
+
+,BREAD est l'acronyme désignant une méthode de construction de deck. Que signifie le B ?,Bo..,Bomb,! Construire un deck: http://tinyurl.com/nezqvp9,Nestoyeur
+,BREAD est l'acronyme désignant une méthode de construction de deck. Que signifie le R ?,Re..,Removal,! Construire un deck: http://tinyurl.com/nezqvp9,Nestoyeur
+,BREAD est l'acronyme désignant une méthode de construction de deck. Que signifie le E ?,En..,Enhancer,! Construire un deck: http://tinyurl.com/nezqvp9,Nestoyeur
+,BREAD est l'acronyme désignant une méthode de construction de deck. Le A signifie A.. et Advantage,Ag..,Aggro,! Construire un deck: http://tinyurl.com/nezqvp9,Nestoyeur
+,BREAD est l'acronyme désignant une méthode de construction de deck. Que signifie le D ?,De..,Defenders,! Construire un deck: http://tinyurl.com/nezqvp9,Nestoyeur
+
+,Lexique: Comment appel on une carte qui peux nettoyer le plateau de tous serviteur ennemis et ou allié ?,Board ..,Board sweeper,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Comment appel on une carte qui inflige des dégâts direct ?,Bu ..,Burn,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Comment appel on une carte qui vous en fait piocher une autre ?,Ca ..,Cantrip,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Stratégie visant à avoir plus de cartes que son adversaire grâce à des cantrips ?,..tage,Card Advantage,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Une carte dans votre main que vous ne pouvez pas jouer à cause d’un coût de cristal de mana trop élevé ?,.. Card,Dead Card,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Un paquet de 30 cartes exactement que le joueur a composé à partir des cartes issues de sa collection ?,D..,Deck,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Les cartes boostant les serviteurs ou leur offrant de nouvelles capacités ?,Enh..,Enhancer,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Carte dont la puissance servira à terrasser l'adversaire en fin de partie ?,Fin..,Finisher,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Histogramme présentant le nombre cartes d'un deck pour un Coût de Cristal Mana donné ?,.. curve,Mana curve,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Acronyme d'un combo ayant la faculté de tuer l'adversaire en un seul tour ?,O..,OTK,: One Turn Kill! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Carte ayant pour effet de tuer ou de neutraliser un serviteur adverse ?,Rem..,Removal,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Carte ayant pour effet de tout nettoyer sur la table ?,Res..,Reset,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Carte dont la puissance servira à terrasser l'adversaire en fin de partie ?,Fin..,Finisher,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Carte dont la puissance servira à terrasser l'adversaire en fin de partie ?,Fin..,Finisher,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+,Lexique: Carte dont la puissance servira à terrasser l'adversaire en fin de partie ?,Fin..,Finisher,! Lexique: http://tinyurl.com/mozdzf4,Nestoyeur
+
+
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur

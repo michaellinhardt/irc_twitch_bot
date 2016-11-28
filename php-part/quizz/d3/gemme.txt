@@ -1,0 +1,25 @@
+,Quel type de gemme donne de la vitalitée ?,A..,Améthyste,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Quel type de gemme donne de la résistance élémentaire ?,D..,Diamant,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Quel type de gemme donne de la dextérité ?,E..,Emeraude,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Quel type de gemme donne de la force ?,R..,Rubis,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Quel type de gemme donne de l'intelligence ?,T..,Topaze,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+
+,Les Améthyste dans le casque donne un pourcentage de vie ?,Vrai ou Faux ?,Vrai,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Les Diamant dans le casque donne de la réduction de temps de recharge ?,Vrai ou Faux ?,Vrai,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Les Emeraude dans le casque augmente vos gains d'or ?,Vrai ou Faux ?,Vrai,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Les Rubis dans le casque augmente vos gains d'expérience ?,Vrai ou Faux ?,Vrai,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Les Topaze dans le casque augmente vos chances de trouver des objets magique ?,Vrai ou Faux ?,Vrai,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+
+,Les Améthyste dans le casque réduit vos temps de recharge ?,Vrai ou Faux ?,Faux,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Les Diamant dans le casque donne de un pourcentage de vie ?,Vrai ou Faux ?,Faux,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Les Emeraude dans le casque augmente vos gains d'expérience ?,Vrai ou Faux ?,Faux,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Les Rubis dans le casque augmente vos chances de trouver des objets magique ?,Vrai ou Faux ?,Faux,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Les Topaze dans le casque augmente vos chances de trouver de l'or ?,Vrai ou Faux ?,Faux,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+
+,Quelle est la qualitée de gemme au dessus de étoilée iridescente ?,Ma..,Marquise,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Quelle est la qualitée de gemme au dessus de Marquise ?,Im..,Impériale,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,Quelle est la qualitée de gemme au dessus de impériale sans défaut ?,Ro..,Royale,! Liste des gemmes sur le site de Blizzard: http://tinyurl.com/oa8cohj,Nestoyeur
+,,..,,,Nestoyeur
+,,..,,,Nestoyeur
+
+

@@ -1,0 +1,87 @@
+,A quelle classe appartiens le sort Frénésie ?,C'est un gros bourrin ^^,Barbare,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,A quelle classe appartiens le sort Bolas ?,Utilise de la dextérité,Chasseur de démons,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,A quelle classe appartiens le sort Justice ?,C'est l'amis des chevaux !,Croisé,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,A quelle classe appartiens le sort Invasion de grenouilles ?,Il à un problème au dos,Féticheur,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,A quelle classe appartiens le sort Frappe mortelle ?,C'est LE support,Moine,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,A quelle classe appartiens le sort Electrocution ?,Porte généralement un chapeau pointu,Sorcier,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+
+,Quel est la ressource utilisé par le Barbare ?,F..,Fureur,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quel est la ressource offensive utilisé par le Chasseur de démons ?,H..,Haine,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quel est la ressource défensive utilisé par le Chasseur de démons ?,D..,Discipline,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quel est la ressource utilisé par le Croisé ?,C..,Colère,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quel est la ressource utilisé par le Féticheur ?,M..,Mana,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quel est la ressource utilisé par le Moine ?,E..,Esprit,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quel est la ressource utilisé par le Sorcier ?,A..,Arcane,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+
+,Quelle classe utilise la ressource: Fureur ?,B..,Barbare,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quelle classe utilise la ressource: Haine ?,Ch..,Chasseur de démons,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quelle classe utilise la ressource: Discipline ?,Ch..,Chasseur de démons,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quelle classe utilise la ressource: Fureur ?,C..,Croisé,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quelle classe utilise la ressource: Fureur ?,F..,Féticheur,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quelle classe utilise la ressource: Fureur ?,M..,Moine,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+,Quelle classe utilise la ressource: Fureur ?,S..,Sorcier,! A propos des ressources: http://tinyurl.com/mw6r6e7,Nestoyeur
+
+,A quelle classe appartiens le sort Frénésie ?,C'est un gros bourrin ^^,Barbare,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,A quelle classe appartiens le sort Bolas ?,Utilise de la dextérité,Chasseur de démons,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,A quelle classe appartiens le sort Justice ?,C'est l'amis des chevaux !,Croisé,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,A quelle classe appartiens le sort Invasion de grenouilles ?,Il à un problème au dos,Féticheur,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,A quelle classe appartiens le sort Frappe mortelle ?,C'est LE support,Moine,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,A quelle classe appartiens le sort Electrocution ?,Porte généralement un chapeau pointu,Sorcier,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+
+,A quelle classe appartiens le sort Déchirure ?,C'est un gros bourrin ^^,Barbare,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,A quelle classe appartiens le sort Chakram ?,Utilise de la dextérité,Chasseur de démons,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,A quelle classe appartiens le sort Marteau béni ?,C'est l'amis des chevaux !,Croisé,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,A quelle classe appartiens le sort Chauves-souris ?,Il à un problème au dos,Féticheur,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,A quelle classe appartiens le sort La Griffe du Dragon ?,C'est LE support,Moine,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,A quelle classe appartiens le sort Orbe arcanique ?,Porte généralement un chapeau pointu,Sorcier,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+,A quelle classe appartiens le sort Bond ?,C'est un gros bourrin ^^,Barbare,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,A quelle classe appartiens le sort Chausse-trappe ?,Utilise de la dextérité,Chasseur de démons,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,A quelle classe appartiens le sort Eblouissement ?,C'est l'amis des chevaux !,Croisé,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,A quelle classe appartiens le sort Marche-fantôme ?,Il à un problème au dos,Féticheur,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,A quelle classe appartiens le sort Sanctuaire intérieur ?,C'est LE support,Moine,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,A quelle classe appartiens le sort Téléportation ?,Porte généralement un chapeau pointu,Sorcier,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+,A quelle classe appartiens le sort Cri de guerre ?,C'est un gros bourrin ^^,Barbare,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,A quelle classe appartiens le sort Vendetta ?,Utilise de la dextérité,Chasseur de démons,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,A quelle classe appartiens le sort Loi de la vaillance ?,C'est l'amis des chevaux !,Croisé,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,A quelle classe appartiens le sort Pirhanas ?,Il à un problème au dos,Féticheur,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,A quelle classe appartiens le sort Frappe-cyclone ?,C'est LE support,Moine,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,A quelle classe appartiens le sort Enchantement de l'arme ?,Porte généralement un chapeau pointu,Sorcier,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+,A quelle classe appartiens le sort Tremblement de terre ?,C'est un gros bourrin ^^,Barbare,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,A quelle classe appartiens le sort Flèche à fragmentation ?,Utilise de la dextérité,Chasseur de démons,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,A quelle classe appartiens le sort Champion d'Akarat ?,C'est l'amis des chevaux !,Croisé,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,A quelle classe appartiens le sort Armée de fétiches ?,Il à un problème au dos,Féticheur,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,A quelle classe appartiens le sort Mantra de condamnation ?,C'est LE support,Moine,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,A quelle classe appartiens le sort Archonte ?,Porte généralement un chapeau pointu,Sorcier,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+,Quel passif du barbare augmente votre force pour chaque ennemi tué ?,C'est un gros bourrin ^^,Boucherie,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,Quel passif du chasseur de démons augmente les dégats des fusées ?,Utilise de la dextérité,Balistique,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,Quel passif du croisé augmente les dégats de justice et mrteau bénis?,C'est l'amis des chevaux !,Contondance,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,Quel passif du féticheur permet de réduir ses temps de recharges ?,Il à un problème au dos,Fin tragique,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,Quel passif du moine augmente vos résistance élémentaire ?,C'est LE support,Harmonie universelle,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,Quel passif du sorcier permet de réduire vos temps de recharge ?,Porte généralement un chapeau pointu,Evocation,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+,Quel passif du barbare réduit le temps de recharge de tremblement de terre ?,C'est un gros bourrin ^^,Faveur de Bul-Khatos,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,Quel passif du chasseur de démons vous octroie un bonus en fonction de votre type d'arme ?,Utilise de la dextérité,Archerie,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,Quel passif du croisé permet de porte une arme à deux main avec un bouclier ?,C'est l'amis des chevaux !,Force des cieux,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,Quel passif du féticheur permet d'invoquer des fétiches quand vous tapez ?,Il à un problème au dos,Courtisans fétiches,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,Quel passif du moine réduit vos temps de recharge ?,C'est LE support,Signe d'Ytar,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,Quel passif du sorcier permet de vous sauver de la mort ?,Porte généralement un chapeau pointu,Anomalie instable,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+,Quel passif du barbare  ?,C'est un gros bourrin ^^,Barbare,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,Quel passif du chasseur de démons ?,Utilise de la dextérité,Chasseur de démons,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,Quel passif du croisé ?,C'est l'amis des chevaux !,Croisé,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,Quel passif du féticheur ?,Il à un problème au dos,Féticheur,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,Quel passif du moine ?,C'est LE support,Moine,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,Quel passif du sorcier ?,Porte généralement un chapeau pointu,Sorcier,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur
+
+,Quel passif du barbare  ?,C'est un gros bourrin ^^,Barbare,! Générateur de build du Barbare: http://tinyurl.com/o3jytv7,Nestoyeur
+,Quel passif du chasseur de démons ?,Utilise de la dextérité,Chasseur de démons,! Générateur de build du Chasseur de démon: http://tinyurl.com/p4qvsvy,Nestoyeur
+,Quel passif du croisé ?,C'est l'amis des chevaux !,Croisé,! Générateur de build du Croisé: http://tinyurl.com/nledgl6,Nestoyeur
+,Quel passif du féticheur ?,Il à un problème au dos,Féticheur,! Générateur de build du Féticheur: http://tinyurl.com/7audgph,Nestoyeur
+,Quel passif du moine ?,C'est LE support,Moine,! Générateur de build du Moine: http://tinyurl.com/kzvehdy,Nestoyeur
+,Quel passif du sorcier ?,Porte généralement un chapeau pointu,Sorcier,! Générateur de build du Sorcier: http://tinyurl.com/lfrc9z6,Nestoyeur

@@ -1,0 +1,34 @@
+,Quel est le prénom du Brigand ?,Ly..,Lyndon,! http://eu.battle.net/d3/fr/follower/templar/,Nestoyeur
+,Quel est le prénom du templier ?,Kor..,Kormack,! http://eu.battle.net/d3/fr/follower/scoundrel/,Nestoyeur
+,Quel est le prénom de l'Enchanteresse ?,Er..,Erina,! http://eu.battle.net/d3/fr/follower/enchantress/,Nestoyeur
+
+,Quel compagnon utilise uniquement les armes à une main ?,T..,Templier, http://tinyurl.com/k62gtva,Nestoyeur
+,Quel compagnon utilise uniquement les arcs et arbalètes ?,B..,Brigand, http://tinyurl.com/k62gtva,Nestoyeur
+,Quel compagnon utilise uniquement les armes à une et deux mains ?,En..,Enchanteresse, http://tinyurl.com/k62gtva,Nestoyeur
+
+,Quel PNJ permet d'échanger les cristaux de sang contre des objet ?,Ka..,Kadala,! Judgehype - Kadala patch 2.0.5: http://tinyurl.com/mejoax9,Nestoyeur
+
+,Kalada permet d'obtenir des objet légendaire de set du mode Tourment ? (Patch 2.0.5),Vrai ou Faux ?,Vrai,! Judgehype - Kadala patch 2.0.5: http://tinyurl.com/mejoax9,Nestoyeur
+
+,Chez Kadala combien de cristaux de sang coute une arme à une main ?,Aucun,15,,Nestoyeur
+,Chez Kadala combien de cristaux de sang coute un casque ?,Aucun,5,,Nestoyeur
+,Chez Kadala combien de cristaux de sang coute des jambières ?,Aucun,5,,Nestoyeur
+,Chez Kadala combien de cristaux de sang coute une amulette ?,Aucun,20,,Nestoyeur
+
+,Comment se nomme le forgeron ?,Haedrig ..,Haedrig Eamon, http://tinyurl.com/nwqhzty,Nestoyeur
+,Comment se nomme le joallier ?,Shen le ..,Shen le cupide, http://tinyurl.com/nwqhzty,Nestoyeur
+,Comment se nomme la mystique ?,Myriam ..,Myriam Jahzia, http://tinyurl.com/nwqhzty,Nestoyeur
+
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur

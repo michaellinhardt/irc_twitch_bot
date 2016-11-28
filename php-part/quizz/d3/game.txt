@@ -1,0 +1,37 @@
+,Sanctuaire: vous recevez une amélioration qui augmente de 25% l'expérience gagnée en tuant des monstres.,Ill..,Illuminé, http://tinyurl.com/ojmxko5,Nestoyeur
+,Sanctuaire: vous recevez une amélioration qui augmente la vitesse d'attaque de 25%.,Fré..,Frénétique, http://tinyurl.com/ojmxko5,Nestoyeur
+,Sanctuaire: vous recevez une amélioration qui réduit tous les dégâts subis de 25%.,Bé..,Béni, http://tinyurl.com/ojmxko5,Nestoyeur
+,Sanctuaire: vous recevez une amélioration qui augmente de 25% le taux de découverte d'objets magiques et d’or.,De..,Destin, http://tinyurl.com/ojmxko5,Nestoyeur
+,Sanctuaire: vos gains de ressource sont augmentés de 100% et vos temps de recharge diminués de 50%.,Ren..,Renforcement, http://tinyurl.com/ojmxko5,Nestoyeur
+,Sanctuaire: votre vitesse de déplacement est augmentée de 25% et votre portée de ramassage de 20 mètres.,Vél..,Vélocité, http://tinyurl.com/ojmxko5,Nestoyeur
+
+,Bassins remplis d’un liquide rouge vif ressemblant à du sang ?,Puits de ..,Puits de guérison, http://tinyurl.com/ojmxko5,Nestoyeur
+
+,Pylône de ..: les dégâts de toutes vos attaques augmentent de 400 %.,Pylône de ..,Pylône de puissance, http://tinyurl.com/ojmxko5,Nestoyeur
+,Pylône de ..: la foudre s’abat tout autour de vous et inflige d’importants dégâts aux ennemis et obstacles à proximité.,Pylône de ..,Pylône de conduction, http://tinyurl.com/ojmxko5,Nestoyeur
+,Pylône de ..: les coûts en ressource et le temps de recharge de toutes vos compétences sont supprimés.,Pylône de ..,Pylône de canalisation, http://tinyurl.com/ojmxko5,Nestoyeur
+,Pylône de ..: vous êtes insensible à toutes les sources de dégâts.,Pylône de ..,Pylône de protection, http://tinyurl.com/ojmxko5,Nestoyeur
+,Pylône de ..: vous atteignez votre vitesse de déplacement maximum.,Pylône de ..,Pylône de vitesse, http://tinyurl.com/ojmxko5,Nestoyeur
+
+,Quel potion légendaire permet de traverser les murs des élites ?,Potion de K..-K.. innépuisable,Potion de Kuka-Kulla innépuisable, http://tinyurl.com/nuf5ftt,Nestoyeur
+,Quel potion légendaire octroie de la vie par coups ?,Potion de .. innépuisable,Potion de sangsue innépuisable, http://tinyurl.com/nuf5ftt,Nestoyeur
+,Quel potion légendaire augmente l'armure de 10% ?,Potion de la .. innépuisable,Potion de la tour innépuisable, http://tinyurl.com/nuf5ftt,Nestoyeur
+,Quel potion légendaire augmente la vie par victime ?,Potion de .. innépuisable,Potion de mutilation, http://tinyurl.com/nuf5ftt,Nestoyeur
+,Quel potion légendaire fait récupérer des points de vie supplémentaire ?,Potion de .. innépuisable,Potion de régénération innépuisable, http://tinyurl.com/nuf5ftt,Nestoyeur
+,Quel potion légendaire augmente toutes les résistances ?,Potion du .. innépuisable,Potion du diamant innépuisable, http://tinyurl.com/nuf5ftt,Nestoyeur
+
+,Quel difficulté octroie: 0 % d’or en plus 0 % d’expérience en plus ?,No..,Normal, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 75 % d’or en plus 75 % d’expérience en plus ?,Di..,Difficile, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 100 % d’or en plus 100 % d’expérience en plus ?,Ex..,Expert, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 200 % d’or en plus 200 % d’expérience en plus ?,Ca..,Calvaire, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 300 % d’or en plus 300 % d’expérience en plus ?,En deux caractéres,T1, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 400 % d’or en plus 400 % d’expérience en plus ?,En deux caractéres,T2, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 550 % d’or en plus 550 % d’expérience en plus ?,En deux caractéres,T3, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 800 % d’or en plus 800 % d’expérience en plus ?,En deux caractéres,T4, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 1 150 % d’or en plus 1 150 % d’expérience en plus ?,En deux caractéres,T5, http://tinyurl.com/ka87df9,Nestoyeur
+,Quel difficulté octroie: 1 600 % d’or en plus 1 600 % d’expérience en plus ?,En deux caractéres,T6, http://tinyurl.com/ka87df9,Nestoyeur
+
+,Le vol de vie n'existe pas dans Diablo 3 ?,Vrai ou Faux ?,Faux,! Il existe toujours sur les ancien objet légendaire: http://tinyurl.com/ka87df9,Nestoyeur
+,Le bonus d'or et d'expérience obtenus en groupe ne fonctionne que si l'on est proche des autres joueurs ?,Vrai ou Faux ?,Vrai,,Nestoyeur
+
+,Combien d'affixe peut avoir un objet rare au maximum ?,Moins de 10..,6,,Nestoyeur

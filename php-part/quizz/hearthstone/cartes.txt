@@ -1,0 +1,57 @@
+,LEGENDAIRE CLASSE,
+,A quelle classe appartiens la carte Al'Akir seigneur des Vents ?,C..,Chaman,! La carte: http://tinyurl.com/qjt3rfr,Nestoyeur
+,A quelle classe appartiens la carte Roi Krush ?,C..,Chasseur,! La carte: http://tinyurl.com/palotv6,Nestoyeur
+,A quelle classe appartiens la carte Seigneur Jaraxxus ?,D..,Démoniste,! La carte: http://tinyurl.com/pph7smg,Nestoyeur
+,A quelle classe appartiens la carte Cénarius ?,D..,Druide,! La carte: http://tinyurl.com/nj2vvhn,Nestoyeur
+,A quelle classe appartiens la carte Grommash Hurlenfer ?,..r,Guerrier,! La carte: http://tinyurl.com/mwfohjh,Nestoyeur
+,A quelle classe appartiens la carte Archimage Antonidas ?,..e,Mage,! La carte: http://tinyurl.com/kz36xfk,Nestoyeur
+,A quelle classe appartiens la carte Porte-cendres ?,P..,Paladin,! La carte: http://tinyurl.com/kv3xe4a,Nestoyeur
+,A quelle classe appartiens la carte Tirion Fordring ?,P..,Paladin,! La carte: http://tinyurl.com/mubtf34,Nestoyeur
+,A quelle classe appartiens la carte Prophète Velen ?,P..,Prêtre,! La carte: http://tinyurl.com/kgrkl46,Nestoyeur
+,LEGENDAIRE CLASSE CRISTAUX,
+,Combien de cristaux coute la carte Al'Akir seigneur des Vents ?,Tapez !quizz <le nombre>,8,! La carte: http://tinyurl.com/qjt3rfr,Nestoyeur
+,Combien de cristaux coute la carte Roi Krush ?,Tapez !quizz <le nombre>,9,! La carte: http://tinyurl.com/palotv6,Nestoyeur
+,Combien de cristaux coute la carte Seigneur Jaraxxus ?,Tapez !quizz <le nombre>,9,! La carte: http://tinyurl.com/pph7smg,Nestoyeur
+,Combien de cristaux coute la carte Cénarius ?,Tapez !quizz <le nombre>,9,! La carte: http://tinyurl.com/nj2vvhn,Nestoyeur
+,Combien de cristaux coute la carte Grommash Hurlenfer ?,Tapez !quizz <le nombre>,8,! La carte: http://tinyurl.com/mwfohjh,Nestoyeur
+,Combien de cristaux coute la carte Archimage Antonidas ?,Tapez !quizz <le nombre>,7,! La carte: http://tinyurl.com/kz36xfk,Nestoyeur
+,Combien de cristaux coute la carte Porte-cendres ?,Tapez !quizz <le nombre>,5,! La carte: http://tinyurl.com/kv3xe4a,Nestoyeur
+,Combien de cristaux coute la carte Tirion Fordring ?,Tapez !quizz <le nombre>,8,! La carte: http://tinyurl.com/mubtf34,Nestoyeur
+,Combien de cristaux coute la carte Prophète Velen ?,Tapez !quizz <le nombre>,7,! La carte: http://tinyurl.com/kgrkl46,Nestoyeur
+,LEGENDAIRE CLASSE CRISTAUX VRAI
+,La carte Al'Akir seigneur des Vents coute 8 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/qjt3rfr,Nestoyeur
+,La carte Roi Krush coute 9 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/palotv6,Nestoyeur
+,La carte Seigneur Jaraxxus coute 9 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/pph7smg,Nestoyeur
+,La carte Cénarius coute 9 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/nj2vvhn,Nestoyeur
+,La carte Grommash Hurlenfer coute 8 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/mwfohjh,Nestoyeur
+,La carte Archimage Antonidas coute 7 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/kz36xfk,Nestoyeur
+,La carte Porte-cendres coute 5 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/kv3xe4a,Nestoyeur
+,La carte Tirion Fordring coute 8 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/mubtf34,Nestoyeur
+,La carte Prophète Velen coute 7 cristaux de mana.,Vrai ou Faux ?,Vrai,! La carte: http://tinyurl.com/kgrkl46,Nestoyeur
+,LEGENDAIRE CLASSE CRISTAUX FAUX
+,La carte Al'Akir seigneur des Vents coute 9 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/qjt3rfr,Nestoyeur
+,La carte Roi Krush coute 8 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/palotv6,Nestoyeur
+,La carte Seigneur Jaraxxus coute 8 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/pph7smg,Nestoyeur
+,La carte Cénarius coute 8 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/nj2vvhn,Nestoyeur
+,La carte Grommash Hurlenfer coute 9 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/mwfohjh,Nestoyeur
+,La carte Archimage Antonidas coute 8 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/kz36xfk,Nestoyeur
+,La carte Porte-cendres coute 6 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/kv3xe4a,Nestoyeur
+,La carte Tirion Fordring coute 7 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/mubtf34,Nestoyeur
+,La carte Prophète Velen coute 8 cristaux de mana.,Vrai ou Faux ?,Faux,! La carte: http://tinyurl.com/kgrkl46,Nestoyeur
+
+, ?,Tapez !quizz <le nombre>,, Détail de la carte: ,Nestoyeur
+
+
+
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur
+,,..,, http://tinyurl.com/nwqhzty,Nestoyeur

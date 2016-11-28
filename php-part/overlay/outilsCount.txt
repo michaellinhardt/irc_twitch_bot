@@ -1,0 +1,8 @@
+<span class="incLegsValue">0</span>
+<span class="incSetValue">0</span>
+<span class="xpHXP">0</span>
+<span class="xpHLevel">0</span>
+<span class="xpHMAX">0</span>
+<span class="LH">0</span>
+<span class="SH">0</span>
+<span class="XH">0M</span>

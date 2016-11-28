@@ -1,0 +1,232 @@
+/***GENERAL***/
+BODY,A,IMG,DIV,P,LI,UL{
+	margin:0;padding:0;
+	overflow-x:hidden;
+	font-family:verdana,arial,sans-serif;
+	font-size:14px;
+}
+BODY{
+	margin: 0 ;
+	/*background:#00FF00;*/
+	background: black ;
+	color:white;
+	overflow: hidden;
+}
+DL,DT,DD,UL,LI{margin:0; padding:0;}
+UL,LI{list-style:none;}
+A{color:white;list-style:none;}
+HR{clear:both;margin:0; padding:0;color:grey;background-color:grey;height:1px;border:0;}
+.clearHR{clear:both;margin:0; padding:0;height:0px;border:0;}
+.center{text-align:center;}
+
+.newFollowerPrice { display: none ; }
+
+#nicklist{
+	overflow: hidden;
+	margin: 0px ;
+	padding: 0px;
+	right: 3px;
+	position: absolute;
+	display: block;
+	height: 937px;
+	width: 200px ;
+	border: 0px solid red ;
+}
+
+#nicklistTitre {
+	margin: 0px ;
+	padding: 0px ;
+	text-align: center;
+	font-weight: bold;
+}
+
+#laliste {
+	margin: 12px 0px 0px 4px ;
+	padding: 0px ;
+	text-align: left ;
+	list-style: none ;
+	line-height: 24px;
+}
+
+#laliste LI {
+	position: relative;
+	width: 100%;
+	font-size: 17px ;
+	letter-spacing: 1px;
+	font-family: arial ;
+}
+
+.follower {float: left; }
+
+.level {
+	position: absolute ;
+	display: block ;
+	height: 20px;
+	right: 0px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px 3px 0px 5px ;
+	font-weight: bold;
+	background: black;
+/*	border: 1px solid red ; */
+	text-align: right ;
+	color: #89BAE2 ;
+	font-family: arial ;
+	font-size: 17px;
+}
+
+.offline { /*color: #970000;*/color: grey; }
+.online { color: white; }
+
+.follower {
+	float: left;
+	width: 24px;
+	height: 24px;
+	background: url(../img/follower.png) 0 0 no-repeat;
+}
+
+/*
+.icoSlot { position: relative ; float: left; width: 24px; height: 24px; }
+
+.icoQuizz, .icoPVE, .weekQuizz, .weekPVE { 
+	position: absolute;
+	top: 0px ;
+	height: 24px;
+	width: 12px;
+}
+.icoQuizz,.weekQuizz { left: 0px ;}
+.icoPVE,.weekPVE { right: 0px ;}
+
+
+
+.weekQuizz{ background: url(../img/win/quizz0.png) 0 0 no-repeat; background-color: rgba(0, 0, 0, 1); z-index:2 ; }
+.weekPVE{ background: url(../img/win/quizz0.png) -12px 0 no-repeat; background-color: rgba(0, 0, 0, 1); z-index:2 ; }
+
+.quizz0 { background: url(../img/win/quizz0.png) 0 0 no-repeat; z-index:1 ; }
+.quizz5 { background: url(../img/win/quizz1.png) 0 0 no-repeat; z-index:1 ; }
+.quizz4 { background: url(../img/win/quizz2.png) 0 0 no-repeat; z-index:1 ; }
+.quizz3 { background: url(../img/win/quizz3.png) 0 0 no-repeat; z-index:1 ; }
+.quizz2 { background: url(../img/win/quizz3.png) 0 0 no-repeat; z-index:1 ; }
+.quizz1 { background: url(../img/win/quizz3.png) 0 0 no-repeat; z-index:1 ; }
+.pve0 { background: url(../img/win/pve0.png) -12px 0 no-repeat; z-index:1 ; }
+.pve5 { background: url(../img/win/pve1.png) -12px 0 no-repeat; z-index:1 ; }
+.pve4 { background: url(../img/win/pve2.png) -12px 0 no-repeat; z-index:1 ; }
+.pve3 { background: url(../img/win/pve3.png) -12px 0 no-repeat; z-index:1 ; }
+.pve2 { background: url(../img/win/pve3.png) -12px 0 no-repeat; z-index:1 ; }
+.pve1 { background: url(../img/win/pve3.png) -12px 0 no-repeat; z-index:1 ; }
+
+.weekQuizz0 { background: url(../img/win/quizz0.png) 0 0 no-repeat; background-color: rgba(0, 0, 0, 0.0); z-index:2 ; }
+.weekQuizz1 { background: url(../img/win/quizz0.png) 0 0 no-repeat; background-color: rgba(0, 0, 0, 0.2); z-index:2 ; }
+.weekQuizz2 { background: url(../img/win/quizz0.png) 0 0 no-repeat; background-color: rgba(0, 0, 0, 0.4); z-index:2 ; }
+.weekQuizz3 { background: url(../img/win/quizz0.png) 0 0 no-repeat; background-color: rgba(0, 0, 0, 0.6); z-index:2 ; }
+.weekQuizz4 { background: url(../img/win/quizz0.png) 0 0 no-repeat; background-color: rgba(0, 0, 0, 0.8); z-index:2 ; }
+.weekPVE0 { background: url(../img/win/pve0.png) -12px 0 no-repeat; background-color: rgba(0, 0, 0, 0.0); z-index:2 ; }
+.weekPVE1 { background: url(../img/win/pve0.png) -12px 0 no-repeat; background-color: rgba(0, 0, 0, 0.1); z-index:2 ; }
+.weekPVE2 { background: url(../img/win/pve0.png) -12px 0 no-repeat; background-color: rgba(0, 0, 0, 0.4); z-index:2 ; }
+.weekPVE3 { background: url(../img/win/pve0.png) -12px 0 no-repeat; background-color: rgba(0, 0, 0, 0.6); z-index:2 ; }
+.weekPVE4 { background: url(../img/win/pve0.png) -12px 0 no-repeat; background-color: rgba(0, 0, 0, 0.8); z-index:2 ; }
+
+*/
+
+#readYoutube { display: none ; }
+
+#outilsCount { display: none; }
+
+#outils {
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	width: 230px;
+	height: 135px;
+	top: 5px ;
+	right: 495px ;
+	border: 1px solid grey;
+}
+
+#followerBox {
+	overflow: hidden;
+	position: absolute;
+	display: none;
+	width: 550px;
+	height: 165px;
+	top: 330px ;
+	right: 210px ;
+	border: 0px solid grey;
+	background: url(../img/new-follow.png) no-repeat;
+	/*border: 1px solid grey ;*/
+}
+
+#followerBoxName  {
+	position: absolute ;
+	display: block;
+	width: 400px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center ;
+	font-weight: bold ;
+	font-size: 40px;
+	border: 0px solid red ;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	top: 52px ;
+	left: 50px ;
+	z-index:9999;
+}
+
+.the_wheel {
+	position: absolute ;
+	display: none ;
+	top: 510px ;
+	right: 210px ;
+	width: 434px;
+	height: 434px;
+	text-align: center ;
+	vertical-align: center ;
+	/* border: 1px solid red ; */
+	overflow: hidden;
+	background: black ;
+}
+.the_wheel IMG {
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index:1;
+	border:1px solid green ;
+	
+}
+
+.the_canvas { margin-top: 0px; }
+.power_controls { display: none;}
+
+#youtube {
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	top: 5px ;
+	right: 210px ;
+	width: 280px;
+	height: 135px;
+	border: 1px solid grey;	
+}
+
+#youtube-swap {
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	top: 150px ;
+	right: 210px ;
+	border: 1px solid grey;
+}
+
+#readFollower {
+	overflow: hidden;
+	position: absolute;
+	display: block;
+	top: 390px ;
+	left: -9210px ;
+	border: 1px solid grey;
+}
+
+#youtube-swap A {
+	text-decoration: none ;
+	font-weight: bold ;
+}
